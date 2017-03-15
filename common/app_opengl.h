@@ -30,15 +30,18 @@
  *
  */
 
-#include "GLEW\glew.h"
+//#include "GLEW\glew.h"
+#include "GL\glew.h"
 
 #define GLCOMPAT
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "GLEW\glew.h"
+//#include "GLEW\glew.h"
+#include "GL\glew.h"
 #ifdef _WIN32
-	#include "GLEW\wglew.h"
+	//#include "GLEW\wglew.h"
+	#include "GL\wglew.h"
 #else
 	#include "GLEW\glxew.h"
 #endif

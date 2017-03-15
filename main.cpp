@@ -597,6 +597,8 @@ void initialize ()
 	#ifdef BUILD_CUDA
 		// Initialize CUDA
 		cudaInit ();
+		//cout << "cuda init done " << endl;
+		printf("cuda init done \n");
 	#endif
 
 	PERF_INIT ( true );

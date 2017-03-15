@@ -1,0 +1,314 @@
+﻿  Performing Custom Build Tools
+fluids/fluid_system_host.cu(83): warning : variable "argc" was declared but never referenced
+  
+fluids/fluid_system_host.cu(84): warning : variable "argv" was declared but never referenced
+  
+fluids/fluid_system_host.cu(92): warning : variable "argc" was declared but never referenced
+  
+fluids/fluid_system_host.cu(93): warning : variable "argv" was declared but never referenced
+  
+fluids/fluid_system_host.cu(83): warning : variable "argc" was declared but never referenced
+  
+fluids/fluid_system_host.cu(84): warning : variable "argv" was declared but never referenced
+  
+fluids/fluid_system_host.cu(92): warning : variable "argc" was declared but never referenced
+  
+fluids/fluid_system_host.cu(93): warning : variable "argv" was declared but never referenced
+  
+CUSTOMBUILD : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  fluid_system_host.cu
+fluids/fluid_system_host.cu(287): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids/fluid_system_host.cu(288): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids/fluid_system_host.cu(289): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Performing Custom Build Tools
+fluids/fluid_system_kern.cu(279): warning : variable "pos" was declared but never referenced
+  
+fluids/fluid_system_kern.cu(596): warning : variable "status" was set but never used
+  
+fluids/fluid_system_kern.cu(279): warning : variable "pos" was declared but never referenced
+  
+fluids/fluid_system_kern.cu(596): warning : variable "status" was set but never used
+  
+CUSTOMBUILD : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  fluid_system_kern.cu
+  app_perf.cpp
+common\app_perf.cpp(104): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'char **'
+common\app_perf.cpp(155): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'long'
+common\app_perf.cpp(155): warning C4302: 'type cast': truncation from 'HANDLE' to 'long'
+common\app_perf.cpp(506): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+common\app_perf.cpp(513): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+common\app_perf.cpp(521): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  app_util.cpp
+common\app_util.cpp(244): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(310): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+common\app_util.cpp(312): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+common\app_util.cpp(342): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+common\app_util.cpp(344): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+common\app_util.cpp(964): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(967): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(968): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(998): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+common\app_util.cpp(1026): warning C4305: 'argument': truncation from 'double' to 'float'
+common\app_util.cpp(1031): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1032): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1033): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1034): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1038): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1044): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1045): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1046): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1051): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1069): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+common\app_util.cpp(1098): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+common\app_util.cpp(1141): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+common\app_util.cpp(1180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+common\app_util.cpp(1171): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+common\app_util.cpp(1178): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+common\app_util.cpp(1218): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+common\app_util.cpp(1482): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(1617): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+common\app_util.cpp(1648): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+common\app_util.cpp(2096): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(2118): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(2524): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(2532): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(2533): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(2562): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(2563): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(3201): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(3234): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(5114): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+common\app_util.cpp(5120): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+common\app_util.cpp(6079): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(6127): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(6207): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(7133): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(7352): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+common\app_util.cpp(8095): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(8212): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+common\app_util.cpp(10917): warning C4474: 'fprintf' : too many arguments passed for format string
+  common\app_util.cpp(10917): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  xml_settings.cpp
+     Include: tinyxml.h (TinyXml)
+common\xml_settings.cpp(227): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(228): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(229): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(238): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(239): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(240): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+common\xml_settings.cpp(241): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  fluid_system.cpp
+o:\fluids3\fluids\fluid_system.h(280): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+o:\fluids3\fluids\fluid_system.h(288): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+o:\fluids3\fluids\fluid_system.h(293): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+o:\fluids3\fluids\fluid_system_host.cuh(52): warning C4005: 'COLOR': macro redefinition
+  o:\fluids3\common\app_util.h(87): note: see previous definition of 'COLOR'
+o:\fluids3\fluids\fluid_system_host.cuh(53): warning C4005: 'COLORA': macro redefinition
+  o:\fluids3\common\app_util.h(88): note: see previous definition of 'COLORA'
+fluids\fluid_system.cpp(132): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+fluids\fluid_system.cpp(139): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+fluids\fluid_system.cpp(139): warning C4305: 'argument': truncation from 'double' to 'float'
+fluids\fluid_system.cpp(139): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(141): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(154): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(166): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(175): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(287): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(288): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(290): warning C4101: 'zp': unreferenced local variable
+fluids\fluid_system.cpp(290): warning C4101: 'xp': unreferenced local variable
+fluids\fluid_system.cpp(291): warning C4101: 'odd': unreferenced local variable
+fluids\fluid_system.cpp(285): warning C4101: 'y': unreferenced local variable
+fluids\fluid_system.cpp(290): warning C4101: 'yp': unreferenced local variable
+fluids\fluid_system.cpp(286): warning C4101: 'cnty': unreferenced local variable
+fluids\fluid_system.cpp(284): warning C4101: 'n': unreferenced local variable
+fluids\fluid_system.cpp(344): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(348): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(349): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(350): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(351): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(352): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(551): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(589): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(616): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(625): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(782): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(783): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(785): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(786): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(787): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(790): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(812): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(814): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+fluids\fluid_system.cpp(816): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(822): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(827): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(832): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(835): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(839): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(848): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(854): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(864): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(874): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(883): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(945): warning C4305: '=': truncation from 'double' to 'float'
+fluids\fluid_system.cpp(946): warning C4305: '=': truncation from 'double' to 'float'
+fluids\fluid_system.cpp(1042): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(1043): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(1044): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(1066): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+fluids\fluid_system.cpp(1135): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1137): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+fluids\fluid_system.cpp(1117): warning C4101: 'gx': unreferenced local variable
+fluids\fluid_system.cpp(1117): warning C4101: 'gz': unreferenced local variable
+fluids\fluid_system.cpp(1117): warning C4101: 'gy': unreferenced local variable
+fluids\fluid_system.cpp(1238): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1269): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1273): warning C4101: 'jpos': unreferenced local variable
+fluids\fluid_system.cpp(1304): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1306): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1334): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1347): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1348): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1303): warning C4101: 'dz': unreferenced local variable
+fluids\fluid_system.cpp(1316): warning C4101: 'jnext': unreferenced local variable
+fluids\fluid_system.cpp(1303): warning C4101: 'dy': unreferenced local variable
+fluids\fluid_system.cpp(1302): warning C4101: 'nbr': unreferenced local variable
+fluids\fluid_system.cpp(1303): warning C4101: 'dx': unreferenced local variable
+fluids\fluid_system.cpp(1372): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1373): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1374): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1417): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1419): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1367): warning C4101: 'nbr': unreferenced local variable
+fluids\fluid_system.cpp(1370): warning C4101: 'mR2': unreferenced local variable
+fluids\fluid_system.cpp(1382): warning C4101: 'jndx': unreferenced local variable
+fluids\fluid_system.cpp(1447): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1448): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1449): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1471): warning C4018: '<': signed/unsigned mismatch
+fluids\fluid_system.cpp(1482): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1484): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1442): warning C4101: 'nbr': unreferenced local variable
+fluids\fluid_system.cpp(1445): warning C4101: 'mR2': unreferenced local variable
+fluids\fluid_system.cpp(1518): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1519): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1530): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1531): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1532): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1533): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1534): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1535): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1601): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+fluids\fluid_system.cpp(1607): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+fluids\fluid_system.cpp(1613): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+fluids\fluid_system.cpp(1627): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+fluids\fluid_system.cpp(1651): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+fluids\fluid_system.cpp(1671): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1672): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(1692): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+fluids\fluid_system.cpp(1712): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+fluids\fluid_system.cpp(1738): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+fluids\fluid_system.cpp(1784): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+fluids\fluid_system.cpp(1815): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+fluids\fluid_system.cpp(1702): warning C4101: 'dat': unreferenced local variable
+fluids\fluid_system.cpp(2003): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(2034): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+fluids\fluid_system.cpp(2056): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+fluids\fluid_system.cpp(2064): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+fluids\fluid_system.cpp(2115): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(2116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+fluids\fluid_system.cpp(2162): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+fluids\fluid_system.cpp(2252): warning C4305: 'argument': truncation from 'double' to 'const float'
+fluids\fluid_system.cpp(2305): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+fluids\fluid_system.cpp(2317): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+fluids\fluid_system.cpp(2319): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+fluids\fluid_system.cpp(2321): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  main.cpp
+O:\fluids3\common\app_opengl.h(116): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
+O:\fluids3\common\app_opengl.h(123): warning C4101: 'errString': unreferenced local variable
+O:\fluids3\common\app_opengl.h(301): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+O:\fluids3\common\app_opengl.h(361): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+O:\fluids3\common\app_opengl.h(378): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'long'
+O:\fluids3\common\app_opengl.h(378): warning C4302: 'type cast': truncation from 'HANDLE' to 'long'
+o:\fluids3\common\app_util.h(87): warning C4005: 'COLOR': macro redefinition
+  O:\fluids3\fluids\fluid_system_host.cuh(52): note: see previous definition of 'COLOR'
+o:\fluids3\common\app_util.h(88): warning C4005: 'COLORA': macro redefinition
+  O:\fluids3\fluids\fluid_system_host.cuh(53): note: see previous definition of 'COLORA'
+O:\fluids3\fluids\fluid_system.h(280): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+O:\fluids3\fluids\fluid_system.h(288): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+O:\fluids3\fluids\fluid_system.h(293): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+main.cpp(64): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(65): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(142): warning C4305: 'argument': truncation from 'double' to 'const float'
+main.cpp(154): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(165): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(169): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(170): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(171): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(172): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+main.cpp(178): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(182): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(196): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(197): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+main.cpp(200): warning C4101: 'view_matrix': unreferenced local variable
+main.cpp(253): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(262): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+main.cpp(273): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+main.cpp(317): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(346): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(351): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(357): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+main.cpp(362): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+main.cpp(367): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+main.cpp(372): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+main.cpp(399): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+main.cpp(420): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(424): warning C4305: 'argument': truncation from 'double' to 'float'
+main.cpp(457): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(481): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(486): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+main.cpp(488): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+main.cpp(493): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+main.cpp(495): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+main.cpp(500): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(501): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+main.cpp(506): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(513): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(514): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+main.cpp(517): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(525): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(526): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(529): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+main.cpp(550): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+main.cpp(552): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+main.cpp(579): warning C4305: '=': truncation from 'double' to 'float'
+main.cpp(591): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+main.cpp(617): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating code
+  All 1235 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  fluids_v3.vcxproj -> O:\fluids3\ReleaseGPU\fluids_v3.exe

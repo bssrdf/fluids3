@@ -204,6 +204,7 @@ bool strSub ( std::string str, int first, int cnt, std::string cmp )
 
 // trim from start
 #include <algorithm>
+#include <functional>
 #include <cctype>
 std::string strLTrim(std::string str) {
         str.erase(str.begin(), std::find_if(str.begin(), str.end(), std::not1(std::ptr_fun<int, int>(std::isspace))));
@@ -1006,9 +1007,9 @@ bool nvGui::guiChanged ( int n )
 	return false;
 }
 
-inline float log2 ( double x ) {
+/*inline float log2 ( double x ) {
 	return log(x)/log(2.0);
-}
+}*/
 
 void nvGui::Draw ()
 {
